@@ -19,10 +19,10 @@ jobs:
       - name: 安装pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: latest
+          version: 7.18.2
       - uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
           registry-url: https://registry.npmjs.org/
           cache: "pnpm"
       - name: 安装依赖
