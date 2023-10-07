@@ -156,7 +156,7 @@ export async function genMarkdownContent(options?: { title?: boolean }) {
         if (item.isNewDay) {
           dayHeader = `### ${item.date}\n`;
         }
-        return `${dayHeader}- [${item.date}] [${item.title}](${item.url}): ${item.description}`;
+        return `${dayHeader}- [${item.title}](${item.url}): ${item.description}`;
       })
       .join("\n");
     content += "\n";
