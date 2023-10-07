@@ -1,8 +1,16 @@
 import { join } from "node:path";
-import fetch from "node-fetch";
+
 import cheerio from "cheerio";
 import dayjs from "dayjs";
-import { exists, mkdir, readJSON, writeFile, writeJSON } from "fs-extra";
+import {
+  exists,
+  mkdir,
+  readJSON,
+  readdir,
+  writeFile,
+  writeJSON
+} from "fs-extra";
+import fetch from "node-fetch";
 
 const dataDir = join(__dirname, "../data");
 const markdownDir = join(__dirname, "../archived");
@@ -16,6 +24,7 @@ interface GitHubRepo {
   stars: number;
   forks: number;
   starGrowth: number;
+  isNewDay?: boolean;
 }
 
 interface GitHubTrendingData {
@@ -110,22 +119,46 @@ export async function genMarkdownContent(options?: { title?: boolean }) {
   const year = now.format("YYYY");
   const month = now.format("MM");
   const date = now.format("YYYY-MM");
-  const jsonData =
-    (await readJSON(
-      join(dataDir, year, month, `${now.format("YYYY-MM-DD")}.json`),
-      {
-        throws: false
-      }
-    )) || {};
   // 生成 markdown 数据
   const title = `# Github 趋势榜(${date})\n`;
   let content = "";
-  Object.entries(jsonData).forEach(([lang, value]) => {
+  const monthDir = join(dataDir, year, month);
+  const files = (await readdir(monthDir)).sort((a, b) => {
+    // 时间降序
+    return dayjs(a).isAfter(dayjs(b)) ? -1 : 1;
+  });
+  const data: GitHubTrendingData = {};
+  const tasks: GitHubTrendingData[] = await Promise.all(
+    files.map(async (filename) => {
+      const filePath = join(monthDir, filename);
+      return await readJSON(filePath);
+    })
+  );
+
+  tasks.forEach((v) => {
+    Object.entries(v).forEach(([key, value], index) => {
+      if (index === 0 && value[0]) {
+        value[0].isNewDay = true;
+      }
+      if (data[key]) {
+        data[key].push(...value);
+      } else {
+        data[key] = value;
+      }
+    });
+  });
+
+  Object.entries(data).forEach(([lang, value]) => {
     console.log("value:", value);
     content += `## ${lang.toUpperCase()}\n`;
-    content += (value as any)
-      .map((item: any) => {
-        return `- [${item.date}] [${item.title}](${item.url}): ${item.description}`;
+    content += value
+      .map((item) => {
+        let dayHeader = "";
+        // 如果是新的一天，则需要新增一个日期的标题
+        if (item.isNewDay) {
+          dayHeader = `### ${item.date}\n`;
+        }
+        return `${dayHeader}- [${item.date}] [${item.title}](${item.url}): ${item.description}`;
       })
       .join("\n");
     content += "\n";
