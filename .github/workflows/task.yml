@@ -30,7 +30,7 @@ jobs:
       - name: 开始获取数据
         run: pnpm run dev
       # Runs a set of commands using the runners shell
-      - name: 提交数据
+      - name: 提交
         run: |
           echo start push
           git config --global user.name ${{secrets.USERNAME}}
