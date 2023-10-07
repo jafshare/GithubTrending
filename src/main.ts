@@ -125,19 +125,19 @@ export async function genMarkdownContent(options?: { title?: boolean }) {
   const monthDir = join(dataDir, year, month);
   const files = (await readdir(monthDir)).sort((a, b) => {
     // 时间降序
-    return dayjs(a).isAfter(dayjs(b)) ? -1 : 1;
+    return dayjs(a.slice(0, -5)).isAfter(dayjs(b.slice(0, -5))) ? -1 : 1;
   });
   const data: GitHubTrendingData = {};
   const tasks: GitHubTrendingData[] = await Promise.all(
     files.map(async (filename) => {
       const filePath = join(monthDir, filename);
-      return await readJSON(filePath);
+      return readJSON(filePath);
     })
   );
 
   tasks.forEach((v) => {
-    Object.entries(v).forEach(([key, value], index) => {
-      if (index === 0 && value[0]) {
+    Object.entries(v).forEach(([key, value]) => {
+      if (value[0]) {
         value[0].isNewDay = true;
       }
       if (data[key]) {
@@ -147,9 +147,7 @@ export async function genMarkdownContent(options?: { title?: boolean }) {
       }
     });
   });
-
   Object.entries(data).forEach(([lang, value]) => {
-    console.log("value:", value);
     content += `## ${lang.toUpperCase()}\n`;
     content += value
       .map((item) => {
