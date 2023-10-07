@@ -1,5 +1,5 @@
 import { join } from "node:path";
-
+import fetch from "node-fetch";
 import cheerio from "cheerio";
 import dayjs from "dayjs";
 import { exists, mkdir, readJSON, writeFile, writeJSON } from "fs-extra";
