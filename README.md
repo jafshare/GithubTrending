@@ -1,5 +1,5 @@
-# Github 趋势榜(2023-10)
-## ALL
+# Github 趋势榜追踪## 说明:
+本项目通过定时获取 Github 的趋势信息，并将信息保存到仓库中，便于后续数据处理，同时也会自动生成对应的 Markdown 格式的趋势榜文档。灵感来源: [github-trending](https://github.com/aneasystone/github-trending)## ALL
 - [2023-10-07] [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev): Create Customized Software using Natural Language Idea (through LLM-powered Multi-Agent Collaboration)
 - [2023-10-07] [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot): Dev tool that writes scalable apps from scratch while the developer oversees the implementation
 - [2023-10-07] [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet): Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application builder. Built using JavaScript/TypeScript. 🚀
@@ -453,3 +453,5 @@
 - [2023-10-07] [lanceliao/china-holiday-calender](https://github.com/lanceliao/china-holiday-calender): 中国节假日、调休、补班日历，ICS格式，可供IPhone、Google Calendar、Outlook等客户端订阅
 - [2023-10-07] [DeSireFire/animeTrackerList](https://github.com/DeSireFire/animeTrackerList): 动漫磁性链接加速方案（animeTrackerList）
 - [2023-10-07] [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8): 直播源相关资源汇总 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵
+## LICENSE
+MIT

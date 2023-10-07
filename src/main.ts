@@ -144,9 +144,9 @@ export async function genArchive(content: string) {
 }
 // 生成 README 文档
 function genREADME(content: string) {
-  const title = "# Github 趋势榜追踪";
+  const title = "# Github 趋势榜追踪\n";
   const header =
-    "## 说明:\n本项目通过定时获取 Github 的趋势信息，并将信息保存到仓库中，便于后续数据处理，同时也会自动生成对应的 Markdown 格式的趋势榜文档。灵感来源: [github-trending](https://github.com/aneasystone/github-trending)";
+    "## 说明:\n本项目通过定时获取 Github 的趋势信息，并将信息保存到仓库中，便于后续数据处理，同时也会自动生成对应的 Markdown 格式的趋势榜文档。灵感来源: [github-trending](https://github.com/aneasystone/github-trending)\n";
   const footer = "## LICENSE\nMIT";
   return writeFile(readmePath, `${title}${header}${content}${footer}`);
 }
