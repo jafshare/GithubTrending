@@ -6,6 +6,7 @@ import { exists, mkdir, readJSON, writeFile, writeJSON } from "fs-extra";
 
 const dataDir = join(__dirname, "../data");
 const markdownDir = join(__dirname, "../archived");
+const readmePath = join(__dirname, "../README.md");
 interface GitHubRepo {
   date: string;
   title: string;
@@ -102,17 +103,13 @@ export async function writeToDataFile(data: any) {
   const filePath = join(dir, `${now.format("YYYY-MM-DD")}.json`);
   return writeJSON(filePath, data);
 }
-// 写入到 markdown
-export async function genMarkdown() {
+// 生成内容
+export async function genMarkdownContent(options?: { title?: boolean }) {
+  const { title: showTitle = true } = options || {};
   const now = dayjs();
-  const dir = join(markdownDir, now.format("YYYY"));
-  if (!(await exists(dir))) {
-    await mkdir(dir, { recursive: true });
-  }
-  const date = now.format("YYYY-MM");
-  const filePath = join(dir, `${date}.md`);
   const year = now.format("YYYY");
   const month = now.format("MM");
+  const date = now.format("YYYY-MM");
   const jsonData =
     (await readJSON(
       join(dataDir, year, month, `${now.format("YYYY-MM-DD")}.json`),
@@ -121,7 +118,7 @@ export async function genMarkdown() {
       }
     )) || {};
   // 生成 markdown 数据
-  const title = `# Github 趋势榜(${date})`;
+  const title = `# Github 趋势榜(${date})\n`;
   let content = "";
   Object.entries(jsonData).forEach(([lang, value]) => {
     console.log("value:", value);
@@ -133,22 +130,40 @@ export async function genMarkdown() {
       .join("\n");
     content += "\n";
   });
-
-  return writeFile(filePath, `${title}\n${content}`);
+  return `${showTitle ? title : ""}${content}`;
+}
+export async function genArchive(content: string) {
+  const now = dayjs();
+  const dir = join(markdownDir, now.format("YYYY"));
+  if (!(await exists(dir))) {
+    await mkdir(dir, { recursive: true });
+  }
+  const date = now.format("YYYY-MM");
+  const filePath = join(dir, `${date}.md`);
+  return writeFile(filePath, content);
+}
+// 生成 README 文档
+function genREADME(content: string) {
+  const title = "# Github 趋势榜追踪";
+  const header =
+    "## 说明:\n本项目通过定时获取 Github 的趋势信息，并将信息保存到仓库中，便于后续数据处理，同时也会自动生成对应的 Markdown 格式的趋势榜文档。灵感来源: [github-trending](https://github.com/aneasystone/github-trending)";
+  const footer = "## LICENSE\nMIT";
+  return writeFile(readmePath, `${title}${header}${content}${footer}`);
 }
 async function run() {
   // 需要获取的语言趋势榜, 空字符串表示所有
   const langs = [
     "",
-    "java",
-    "python",
     "javascript",
+    "css",
+    "html",
     "go",
+    "rust",
+    "python",
+    "java",
     "c",
     "c++",
     "c#",
-    "html",
-    "css",
     "unknown"
   ];
   const urls = [
@@ -185,6 +200,7 @@ async function run() {
     }
   });
   await writeToDataFile(data);
-  await genMarkdown();
+  await genArchive(await genMarkdownContent());
+  await genREADME(await genMarkdownContent({ title: false }));
 }
 run();
