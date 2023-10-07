@@ -131,6 +131,7 @@ export async function genMarkdown() {
         return `- [${item.date}] [${item.title}](${item.url}): ${item.description}`;
       })
       .join("\n");
+    content += "\n";
   });
 
   return writeFile(filePath, `${title}\n${content}`);
@@ -169,9 +170,16 @@ async function run() {
   ]);
   const data: GitHubTrendingData = {};
   tasks.forEach((task) => {
-    const lang = task.language ?? "all";
+    const lang = task.language || "all";
     if (task.spoken) {
-      data[lang] = [...data[lang], ...task.data];
+      const newData = [...data[lang]];
+      // 去重
+      task.data.forEach((item) => {
+        if (!newData.find((i) => i.url === item.url)) {
+          newData.push(item);
+        }
+      });
+      data[lang] = newData;
     } else {
       data[lang] = task.data;
     }
