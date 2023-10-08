@@ -8,7 +8,7 @@ on:
       - main
       - "releases/**"
   schedule:
-    - cron: "0 0,8,16 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
@@ -40,6 +40,6 @@ jobs:
           git remote set-url origin https://${{secrets.GITHUB_TOKEN}}@github.com/jafshare/GithubTrending.git
 
           git add -A
-          git commit -m "Update: $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S')"
           git push
           echo end push
