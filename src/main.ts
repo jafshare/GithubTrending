@@ -184,55 +184,55 @@ function genREADME(content: string) {
 }
 async function run() {
   // 需要获取的语言趋势榜, 空字符串表示所有
-  // const langs = [
-  //   "",
-  //   "javascript",
-  //   "css",
-  //   "html",
-  //   "go",
-  //   "rust",
-  //   "python",
-  //   "java",
-  //   "c",
-  //   "c++",
-  //   "c#",
-  //   "unknown"
-  // ];
-  // const urls = [
-  //   ...langs.map((lang) => ({
-  //     language: lang,
-  //     spoken: "",
-  //     url: `https://github.com/trending/${lang}`
-  //   })),
-  //   ...langs.map((lang) => ({
-  //     language: lang,
-  //     spoken: "zh",
-  //     url: `https://github.com/trending/${lang}?spoken_language_code=zh`
-  //   }))
-  // ];
-  // const tasks = await Promise.all([
-  //   ...urls.map(async ({ url, spoken, language }) => {
-  //     return { spoken, language, data: await crawlFromUrl(url) };
-  //   })
-  // ]);
-  // const data: GitHubTrendingData = {};
-  // tasks.forEach((task) => {
-  //   const lang = task.language || "all";
-  //   if (task.spoken) {
-  //     const newData = [...data[lang]];
-  //     // 去重
-  //     task.data.forEach((item) => {
-  //       if (!newData.find((i) => i.url === item.url)) {
-  //         newData.push(item);
-  //       }
-  //     });
-  //     data[lang] = newData;
-  //   } else {
-  //     data[lang] = task.data;
-  //   }
-  // });
-  // await writeToDataFile(data);
-  // await genArchive(await genMarkdownContent());
+  const langs = [
+    "",
+    "javascript",
+    "css",
+    "html",
+    "go",
+    "rust",
+    "python",
+    "java",
+    "c",
+    "c++",
+    "c#",
+    "unknown"
+  ];
+  const urls = [
+    ...langs.map((lang) => ({
+      language: lang,
+      spoken: "",
+      url: `https://github.com/trending/${lang}`
+    })),
+    ...langs.map((lang) => ({
+      language: lang,
+      spoken: "zh",
+      url: `https://github.com/trending/${lang}?spoken_language_code=zh`
+    }))
+  ];
+  const tasks = await Promise.all([
+    ...urls.map(async ({ url, spoken, language }) => {
+      return { spoken, language, data: await crawlFromUrl(url) };
+    })
+  ]);
+  const data: GitHubTrendingData = {};
+  tasks.forEach((task) => {
+    const lang = task.language || "all";
+    if (task.spoken) {
+      const newData = [...data[lang]];
+      // 去重
+      task.data.forEach((item) => {
+        if (!newData.find((i) => i.url === item.url)) {
+          newData.push(item);
+        }
+      });
+      data[lang] = newData;
+    } else {
+      data[lang] = task.data;
+    }
+  });
+  await writeToDataFile(data);
+  await genArchive(await genMarkdownContent());
   await genREADME(await genMarkdownContent({ title: false }));
 }
 run();
