@@ -4,6 +4,7 @@ import cheerio from "cheerio";
 import dayjs from "dayjs";
 import {
   exists,
+  existsSync,
   mkdir,
   readJSON,
   readdir,
@@ -29,6 +30,41 @@ interface GitHubRepo {
 
 interface GitHubTrendingData {
   [language: string]: GitHubRepo[];
+}
+/**
+ * @param delay
+ */
+export async function sleep(delay: number) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, delay);
+  });
+}
+/**
+ * 获取数据文件路径
+ * @returns {dir, filename, fullPath}
+ */
+export function getDataPath() {
+  const now = dayjs();
+  const dir = join(dataDir, now.format("YYYY"), now.format("MM"));
+  const filename = `${now.format("YYYY-MM-DD")}.json`;
+  return {
+    dir,
+    filename,
+    fullPath: join(dir, filename)
+  };
+}
+
+export function getArchivedPath() {
+  const now = dayjs();
+  const year = now.format("YYYY");
+  const date = now.format("YYYY-MM");
+  const dir = join(markdownDir, year);
+  const filename = `${date}.md`;
+  return {
+    dir,
+    filename,
+    fullPath: join(dir, filename)
+  };
 }
 export async function parseFromHTML(html: string): Promise<GitHubRepo[]> {
   const results: GitHubRepo[] = [];
@@ -94,23 +130,35 @@ async function crawlFromUrl(url: string): Promise<GitHubRepo[]> {
     "Accept-Encoding": "gzip,deflate,sdch",
     "Accept-Language": "zh-CN,zh;q=0.8"
   };
-  const res = await fetch(url, { headers, method: "GET" });
-  if (res.status !== 200) {
-    throw new Error(`调用URL: ${url} 异常, ${res.text()}`);
+  let content = "";
+  // 增加重试
+  for (let index = 0; index < 3; index++) {
+    try {
+      const res = await fetch(url, { headers, method: "GET" });
+      if (res.status !== 200) {
+        throw new Error(`调用URL: ${url} 异常, ${res.text()}`);
+      }
+      content = await res.text();
+      break;
+    } catch (error) {
+      console.error("请求发生错误:", error);
+      // 超过最大的重试次数，抛出错误
+      if (index === 2) {
+        throw new Error("获取内容失败");
+      }
+    }
+    // 增加睡眠，避免时间太接近，没有太大效果
+    await sleep(3 * 1000);
   }
-
-  const content = await res.text();
   return parseFromHTML(content);
 }
 // 将数据保存
 export async function writeToDataFile(data: any) {
-  const now = dayjs();
-  const dir = join(dataDir, now.format("YYYY"), now.format("MM"));
+  const { dir, fullPath } = getDataPath();
   if (!(await exists(dir))) {
     await mkdir(dir, { recursive: true });
   }
-  const filePath = join(dir, `${now.format("YYYY-MM-DD")}.json`);
-  return writeJSON(filePath, data);
+  return writeJSON(fullPath, data);
 }
 // 生成内容
 export async function genMarkdownContent(options?: { title?: boolean }) {
@@ -164,14 +212,11 @@ export async function genMarkdownContent(options?: { title?: boolean }) {
   return `${showTitle ? title : ""}${content}`;
 }
 export async function genArchive(content: string) {
-  const now = dayjs();
-  const dir = join(markdownDir, now.format("YYYY"));
+  const { dir, fullPath } = getArchivedPath();
   if (!(await exists(dir))) {
     await mkdir(dir, { recursive: true });
   }
-  const date = now.format("YYYY-MM");
-  const filePath = join(dir, `${date}.md`);
-  return writeFile(filePath, content);
+  return writeFile(fullPath, content);
 }
 // 生成 README 文档
 function genREADME(content: string) {
@@ -181,6 +226,13 @@ function genREADME(content: string) {
   )}\n`;
   const footer = "## LICENSE\nMIT";
   return writeFile(readmePath, `${title}${header}${content}${footer}`);
+}
+/**
+ * 检查当天是否已经生成了文件
+ * @returns
+ */
+function checkExists(): boolean {
+  return existsSync(getDataPath().fullPath);
 }
 async function run() {
   // 需要获取的语言趋势榜, 空字符串表示所有
@@ -198,6 +250,11 @@ async function run() {
     "c#",
     "unknown"
   ];
+  // 检查是否已生成对应的文档
+  if (checkExists()) {
+    console.log("当天文件已生成");
+    return;
+  }
   const urls = [
     ...langs.map((lang) => ({
       language: lang,

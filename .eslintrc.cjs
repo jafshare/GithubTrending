@@ -32,10 +32,12 @@ module.exports = {
     "@typescript-eslint/no-var-requires": "off", // require报错
     "@typescript-eslint/ban-ts-comment": "off", // 禁用@ts-ignore等指令的报错
     "antfu/if-newline": "off",
+    "@stylistic/ts/member-delimiter-style": "off",
+    "@stylistic/ts/brace-style": "off",
     // @antfu/eslint-config-vue 默认禁用，如果需要开启，需要下载对应的别名解析库 vite: eslint-import-resolver-vite 、webpack: eslint-import-resolver-typescript
     // "import/no-unresolved": "error",
     // import之后默认增加换行
-    "import/newline-after-import": ["error", { "count": 1 }],
+    "import/newline-after-import": ["error", { count: 1 }],
     // import排序配置
     "import/order": [
       "error",
