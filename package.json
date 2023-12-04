@@ -8,7 +8,8 @@
   "scripts": {
     "prepare": "npx husky install",
     "lint": "eslint --cache --fix  --ext .js,.ts,.jsx,.tsx .",
-    "dev": "tsx ./src/main.ts"
+    "dev": "tsx ./src/main.ts",
+    "regen": "tsx ./src/regenArchive.ts"
   },
   "license": "MIT",
   "devDependencies": {
