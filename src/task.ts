@@ -255,8 +255,7 @@ export async function run() {
     "java",
     "c",
     "c++",
-    "c#",
-    "unknown"
+    "c#"
   ];
   // 检查是否已生成对应的文档
   if (checkExists()) {
