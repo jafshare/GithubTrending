@@ -2,8 +2,49 @@
 ## 说明:
 本项目通过定时获取 Github 的趋势信息，并将信息保存到仓库中，便于后续数据处理，同时也会自动生成对应的 Markdown 格式的趋势榜文档。灵感来源: [github-trending](https://github.com/aneasystone/github-trending)
 
-最后更新时间: 2024-07-02 08:40:47
+最后更新时间: 2024-07-03 08:40:58
 ## ALL
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 18 Lessons, Get Started Building with Generative AI 🔗 https://microsoft.github.io/generative-ai-for-beginners/ |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw |
+| [goldmansachs/gs-quant](https://github.com/goldmansachs/gs-quant) | Python toolkit for quantitative finance |
+| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. |
+| [ClayAmore/ER-Save-Editor](https://github.com/ClayAmore/ER-Save-Editor) | Elden Ring Save Editor. Compatible with PC and Playstation saves. |
+| [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) | A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app |
+| [cuixueshe/earthworm](https://github.com/cuixueshe/earthworm) | Learning English through the method of constructing sentences with conjunctions |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
+| [actualbudget/actual-server](https://github.com/actualbudget/actual-server) | Actual's server |
+| [moby/moby](https://github.com/moby/moby) | The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems |
+| [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! |
+| [Azure/azure-sdk-for-net](https://github.com/Azure/azure-sdk-for-net) | This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. |
+| [facebook/react-native](https://github.com/facebook/react-native) | A framework for building native applications using React |
+| [iam-veeramalla/aws-devops-zero-to-hero](https://github.com/iam-veeramalla/aws-devops-zero-to-hero) | AWS zero to hero repo for devops engineers to learn AWS in 30 Days. This repo includes projects, presentations, interview questions and real time examples. |
+| [restic/restic](https://github.com/restic/restic) | Fast, secure, efficient backup program |
+| [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) | NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes |
+| [DGP-Studio/Snap.Hutao](https://github.com/DGP-Studio/Snap.Hutao) | 实用的开源多功能原神工具箱 🧰 / Multifunctional Open-source Genshin Impact Toolkit 🧰 |
+| [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) | 《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients. |
+| [YSGStudyHards/DotNetGuide](https://github.com/YSGStudyHards/DotNetGuide) | 🌈【C#/.NET/.NET Core学习、工作、面试指南】记录、收集和总结C#/.NET/.NET Core基础知识、学习路线、开发实战、编程技巧练习、学习视频、文章、书籍、项目框架、社区组织、开发必备工具、常见面试题、面试须知、简历模板、以及自己在学习和工作中的一些微薄见解。希望能和大家一起学习，共同进步。如果本知识库能为您提供帮助，别忘了给予支持哦(关注、点赞、分享)💖。 |
+| [ruanyf/weekly](https://github.com/ruanyf/weekly) | 科技爱好者周刊，每周五发布 |
+| [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | ehviewer，用爱发电，快乐前行 |
+| [XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup) | DataBackup for Android 8.0+ |
+| [pt-plugins/PT-Plugin-Plus](https://github.com/pt-plugins/PT-Plugin-Plus) | PT 助手 Plus，为 Microsoft Edge、Google Chrome、Firefox 浏览器插件（Web Extensions），主要用于辅助下载 PT 站的种子。 |
+| [smallfawn/QLScriptPublic](https://github.com/smallfawn/QLScriptPublic) | 青龙面板脚本公共仓库 新群 551674817 密码888 元梦之星 |
+| [shadow1ng/fscan](https://github.com/shadow1ng/fscan) | 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。 |
+| [iamseancheney/python_for_data_analysis_2nd_chinese_version](https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version) | 《利用Python进行数据分析·第2版》 |
+| [AmazingAng/WTF-Solidity](https://github.com/AmazingAng/WTF-Solidity) | 我最近在重新学solidity，巩固一下细节，也写一个“WTF Solidity极简入门”，供小白们使用，每周更新1-3讲。Now supports English! 官网: https://wtf.academy |
+| [iDvel/rime-ice](https://github.com/iDvel/rime-ice) | Rime 配置：雾凇拼音 | 长期维护的简体词库 |
+| [alibaba/fastjson2](https://github.com/alibaba/fastjson2) | 🚄 FASTJSON2 is a Java JSON library with excellent performance. |
+| [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) | Download all your kindle books script. |
+| [oceanbase/miniob](https://github.com/oceanbase/miniob) | MiniOB is a compact database that assists developers in understanding the fundamental workings of a database. |
+| [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT3.5/GPT-4o/GPT4.0/ Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Claude/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。 |
+| [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) | 一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄 |
+| [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。 |
+| [shibing624/text2vec](https://github.com/shibing624/text2vec) | text2vec, text to vector. 文本向量表征工具，把文本转化为向量矩阵，实现了Word2Vec、RankBM25、Sentence-BERT、CoSENT等文本表征、文本相似度计算模型，开箱即用。 |
+| [wangrongding/wechat-bot](https://github.com/wangrongding/wechat-bot) | 🤖一个基于 WeChaty 结合 OpenAi ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等... |
+| [yaklang/yakit](https://github.com/yaklang/yakit) | Cyber Security ALL-IN-ONE Platform |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -81,6 +122,41 @@
 | [smallfawn/QLScriptPublic](https://github.com/smallfawn/QLScriptPublic) | 青龙面板脚本公共仓库 新群 551674817 密码888 元梦之星 |
 | [vant-ui/vant-demo](https://github.com/vant-ui/vant-demo) | Collection of vant demos. |
 ## JAVASCRIPT
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) | A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | Community curated list of templates for the nuclei engine to find security vulnerabilities. |
+| [actualbudget/actual-server](https://github.com/actualbudget/actual-server) | Actual's server |
+| [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) | A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。 |
+| [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨 |
+| [overleaf/overleaf](https://github.com/overleaf/overleaf) | A web-based collaborative LaTeX editor |
+| [mrdoob/three.js](https://github.com/mrdoob/three.js) | JavaScript 3D Library. |
+| [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy) | The easiest way to run WireGuard VPN + Web-based Admin UI. |
+| [4ian/GDevelop](https://github.com/4ian/GDevelop) | 🎮 Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone. |
+| [mozilla/pdf.js](https://github.com/mozilla/pdf.js) | PDF Reader in JavaScript |
+| [TheOdinProject/curriculum](https://github.com/TheOdinProject/curriculum) | The open curriculum for learning web development |
+| [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown |
+| [npm/cli](https://github.com/npm/cli) | the package manager for JavaScript |
+| [react-grid-layout/react-grid-layout](https://github.com/react-grid-layout/react-grid-layout) | A draggable and resizable grid layout with responsive breakpoints, for React. |
+| [mediacms-io/mediacms](https://github.com/mediacms-io/mediacms) | MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React, featuring a REST API. |
+| [usebruno/bruno](https://github.com/usebruno/bruno) | Opensource IDE For Exploring and Testing Api's (lightweight alternative to postman/insomnia) |
+| [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | A browser based code editor |
+| [CodeWithHarry/Sigma-Web-Dev-Course](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course) | Source Code for Sigma Web Development Course |
+| [pt-plugins/PT-Plugin-Plus](https://github.com/pt-plugins/PT-Plugin-Plus) | PT 助手 Plus，为 Microsoft Edge、Google Chrome、Firefox 浏览器插件（Web Extensions），主要用于辅助下载 PT 站的种子。 |
+| [smallfawn/QLScriptPublic](https://github.com/smallfawn/QLScriptPublic) | 青龙面板脚本公共仓库 新群 551674817 密码888 元梦之星 |
+| [wangrongding/wechat-bot](https://github.com/wangrongding/wechat-bot) | 🤖一个基于 WeChaty 结合 OpenAi ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等... |
+| [MuiseDestiny/zotero-style](https://github.com/MuiseDestiny/zotero-style) | Ethereal Style for Zotero |
+| [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) | 搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用 |
+| [ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) | 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。 |
+| [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) | 哔哩哔哩-API收集整理【不断更新中....】 |
+| [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) | 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.) |
+| [max32002/tixcraft_bot](https://github.com/max32002/tixcraft_bot) | MaxBot open source code bot |
+| [gaotianliuyun/gao](https://github.com/gaotianliuyun/gao) | FongMi影视和tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。 |
+| [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) | Next Terminal是一个简单好用安全的开源交互审计系统，支持RDP、SSH、VNC、Telnet、Kubernetes协议。 |
+| [WTFAcademy/WTF-Ethers](https://github.com/WTFAcademy/WTF-Ethers) | 我最近在重新学ethers.js，巩固一下细节，也写一个“WTF Ethers.js极简入门”，供小白们使用，每周更新1-3讲。Now supports English! 官网: https://wtf.academy |
+| [layui/layui](https://github.com/layui/layui) | 一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面。 |
+| [memochou1993/gpt-ai-assistant](https://github.com/memochou1993/gpt-ai-assistant) | OpenAI + LINE + Vercel = GPT AI Assistant |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -152,6 +228,19 @@
 | [timqian/chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs) | 中文独立博客列表 |
 | [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) | 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.) |
 ## CSS
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [primefaces/primeng](https://github.com/primefaces/primeng) | The Most Complete Angular UI Component Library |
+| [primefaces/primereact](https://github.com/primefaces/primereact) | The Most Complete React UI Component Library |
+| [devlikeapro/waha](https://github.com/devlikeapro/waha) | WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! |
+| [MeiK2333/github-style](https://github.com/MeiK2333/github-style) |  |
+| [moveit/moveit2_tutorials](https://github.com/moveit/moveit2_tutorials) | A sphinx-based centralized documentation repo for MoveIt 2 |
+| [opera-gaming/gxmods](https://github.com/opera-gaming/gxmods) | Documentation for GX mods |
+| [Zproger/bspwm-dotfiles](https://github.com/Zproger/bspwm-dotfiles) | A minimalistic Arch Linux build that is designed to make your development easier and faster |
+| [lipis/flag-icons](https://github.com/lipis/flag-icons) | 🎏 A curated collection of all country flags in SVG — plus the CSS for easier integration |
+| [necolas/normalize.css](https://github.com/necolas/normalize.css) | A modern alternative to CSS resets |
+| [sharu725/online-cv](https://github.com/sharu725/online-cv) | A minimal Jekyll Theme to host your resume (CV) on GitHub with a few clicks. |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -183,6 +272,23 @@
 | [mwittrien/BetterDiscordAddons](https://github.com/mwittrien/BetterDiscordAddons) | A series of plugins and themes for BetterDiscord. |
 | [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic) | A sample Spring-based application |
 ## HTML
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [google/styleguide](https://github.com/google/styleguide) | Style guides for Google-originated open-source projects |
+| [wppconnect-team/wa-version](https://github.com/wppconnect-team/wa-version) |  |
+| [atherosai/ui](https://github.com/atherosai/ui) | Simple UI examples from my social media |
+| [square/retrofit](https://github.com/square/retrofit) | A type-safe HTTP client for Android and the JVM |
+| [alshedivat/al-folio](https://github.com/alshedivat/al-folio) | A beautiful, simple, clean, and responsive Jekyll theme for academics |
+| [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt) | Test suites for Web platform specs — including WHATWG, W3C, and others |
+| [gustavoguanabara/html-css](https://github.com/gustavoguanabara/html-css) | Curso de HTML5 e CSS3 |
+| [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips) | An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程。 |
+| [milvus-io/bootcamp](https://github.com/milvus-io/bootcamp) | Dealing with all unstructured data, such as reverse image search, audio search, molecular search, video analysis, question and answer systems, NLP, etc. |
+| [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) | Documentation that simply works |
+| [SAP/ui5-webcomponents](https://github.com/SAP/ui5-webcomponents) | UI5 Web Components - the enterprise-flavored sugar on top of native APIs! Build SAP Fiori user interfaces with the technology of your choice. |
+| [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io) | 📘 Home Assistant User documentation |
+| [daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) | ✨ Build a beautiful and simple website in literally minutes. Demo at https://beautifuljekyll.com |
+| [shidahuilang/openwrt](https://github.com/shidahuilang/openwrt) | openwrt编译更新库X86-R2C-R2S-R4S-R5S-N1-小米MI系列等多机型全部适配OTA自动升级 |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -215,6 +321,42 @@
 | [ShreyamMaity/student-offers](https://github.com/ShreyamMaity/student-offers) | A Collection Of All Free Student Offers & Discount while you are a student. |
 | [elastic/ecs-dotnet](https://github.com/elastic/ecs-dotnet) |  |
 ## GO
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [moby/moby](https://github.com/moby/moby) | The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems |
+| [restic/restic](https://github.com/restic/restic) | Fast, secure, efficient backup program |
+| [NVIDIA/gpu-operator](https://github.com/NVIDIA/gpu-operator) | NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes |
+| [projectdiscovery/httpx](https://github.com/projectdiscovery/httpx) | httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library. |
+| [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a service, and privileged access management |
+| [apache/incubator-answer](https://github.com/apache/incubator-answer) | A Q&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer. |
+| [slimtoolkit/slim](https://github.com/slimtoolkit/slim) | Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source) |
+| [go-chi/chi](https://github.com/go-chi/chi) | lightweight, idiomatic and composable router for building Go HTTP services |
+| [samber/lo](https://github.com/samber/lo) | 💥 A Lodash-style Go library based on Go 1.18+ Generics (map, filter, contains, find...) |
+| [prometheus/prometheus](https://github.com/prometheus/prometheus) | The Prometheus monitoring system and time series database. |
+| [hashicorp/terraform](https://github.com/hashicorp/terraform) | Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned. |
+| [golang-migrate/migrate](https://github.com/golang-migrate/migrate) | Database migrations. CLI and Golang library. |
+| [grafana/mimir](https://github.com/grafana/mimir) | Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus. |
+| [ent/ent](https://github.com/ent/ent) | An entity framework for Go |
+| [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx) | Ingress-NGINX Controller for Kubernetes |
+| [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) | CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system. |
+| [containerd/containerd](https://github.com/containerd/containerd) | An open and reliable container runtime |
+| [shirou/gopsutil](https://github.com/shirou/gopsutil) | psutil for golang |
+| [uber-go/mock](https://github.com/uber-go/mock) | GoMock is a mocking framework for the Go programming language. |
+| [hashicorp/packer](https://github.com/hashicorp/packer) | Packer is a tool for creating identical machine images for multiple platforms from a single source configuration. |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Fast and customizable vulnerability scanner based on simple YAML based DSL. |
+| [argoproj/argo-rollouts](https://github.com/argoproj/argo-rollouts) | Progressive Delivery for Kubernetes |
+| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | Ebitengine - A dead simple 2D game engine for Go |
+| [shadow1ng/fscan](https://github.com/shadow1ng/fscan) | 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。 |
+| [bufanyun/hotgo](https://github.com/bufanyun/hotgo) | HotGo 是一个基于 vue 和 goframe2.0 开发的全栈前后端分离的开发基础平台和移动应用平台，集成jwt鉴权，动态路由，动态菜单，casbin鉴权，消息队列，定时任务等功能，提供多种常用场景文件，让您把更多时间专注在业务开发上。 |
+| [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) | Ip2region (2.0 - xdb) is a offline IP address manager framework and locator, support billions of data segments, ten microsecond searching performance. xdb engine implementation for many programming languages |
+| [EndlessCheng/codeforces-go](https://github.com/EndlessCheng/codeforces-go) | 算法竞赛模板库 by 灵茶山艾府 💭💡🎈 |
+| [alibaba/higress](https://github.com/alibaba/higress) | Cloud Native API Gateway | 云原生API网关 |
+| [zan8in/afrog](https://github.com/zan8in/afrog) | A Security Tool for Bug Bounty, Pentest and Red Teaming. |
+| [suyuan32/simple-admin-core](https://github.com/suyuan32/simple-admin-core) | Simple Admin是一个基于Go Zero开发面向小型到大型项目的分布式微服务后端管理系统脚手架，提供丰富的后台管理功能，支持k8s快速部署，助力快速开发高并发微服务集群，适合学习和商用。Simple Admin is a powerful microservice framework for large management system. It is based on go-zero and supports several advanced features. It can help you to develop a microservice back-end management system in a short time. |
+| [gdy666/lucky](https://github.com/gdy666/lucky) | 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,阿里云盘,ftp,webdav,filebrowser |
+| [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) | 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP ~ |
+| [cnk3x/xunlei](https://github.com/cnk3x/xunlei) | 提取自群晖平台的迅雷下载套件，用在其他Linux机器上的迅雷远程下载服务 |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -274,6 +416,32 @@
 | [EndlessCheng/codeforces-go](https://github.com/EndlessCheng/codeforces-go) | 算法竞赛模板库 by 灵茶山艾府 💭💡🎈 |
 | [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) | 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP ~ |
 ## RUST
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [ClayAmore/ER-Save-Editor](https://github.com/ClayAmore/ER-Save-Editor) | Elden Ring Save Editor. Compatible with PC and Playstation saves. |
+| [starship/starship](https://github.com/starship/starship) | ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! |
+| [astral-sh/uv](https://github.com/astral-sh/uv) | An extremely fast Python package installer and resolver, written in Rust. |
+| [YaLTeR/niri](https://github.com/YaLTeR/niri) | A scrollable-tiling Wayland compositor. |
+| [AleoNet/snarkOS](https://github.com/AleoNet/snarkOS) | A Decentralized Operating System for ZK Applications |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | Dataframes powered by a multithreaded, vectorized query engine, written in Rust |
+| [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs) | Blazingly fast LLM inference. |
+| [diesel-rs/diesel](https://github.com/diesel-rs/diesel) | A safe, extensible ORM and Query Builder for Rust |
+| [serde-rs/json](https://github.com/serde-rs/json) | Strongly typed JSON library for Rust |
+| [tracel-ai/burn](https://github.com/tracel-ai/burn) | Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals. |
+| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs |
+| [sigp/lighthouse](https://github.com/sigp/lighthouse) | Ethereum consensus client in Rust |
+| [PyO3/maturin](https://github.com/PyO3/maturin) | Build and publish crates with pyo3, cffi and uniffi bindings as well as rust binaries as python packages |
+| [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) | Spotify for the terminal written in Rust 🚀 |
+| [martinvonz/jj](https://github.com/martinvonz/jj) | A Git-compatible VCS that is both simple and powerful |
+| [rust-lang/rustup](https://github.com/rust-lang/rustup) | The Rust toolchain installer |
+| [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | A scalable, distributed, collaborative, document-graph database, for the realtime web |
+| [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) | Fullstack GUI library for web, desktop, mobile, and more. |
+| [swc-project/swc](https://github.com/swc-project/swc) | Rust-based platform for the Web |
+| [typst/typst](https://github.com/typst/typst) | A new markup-based typesetting system that is powerful and easy to learn. |
+| [umijs/mako](https://github.com/umijs/mako) | An extremely fast, production-grade web bundler based on Rust. |
+| [helix-editor/helix](https://github.com/helix-editor/helix) | A post-modern modal text editor. |
+| [tw93/Pake](https://github.com/tw93/Pake) | 🤱🏻 Turn any webpage into a desktop app with Rust. 🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用 |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -328,6 +496,43 @@
 | [ankitects/anki](https://github.com/ankitects/anki) | Anki's shared backend and web components, and the Qt frontend |
 | [messense/aliyundrive-webdav](https://github.com/messense/aliyundrive-webdav) | 阿里云盘 WebDAV 服务 |
 ## PYTHON
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw |
+| [iam-veeramalla/aws-devops-zero-to-hero](https://github.com/iam-veeramalla/aws-devops-zero-to-hero) | AWS zero to hero repo for devops engineers to learn AWS in 30 Days. This repo includes projects, presentations, interview questions and real time examples. |
+| [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai) | Python scraper based on AI |
+| [Azure/PyRIT](https://github.com/Azure/PyRIT) | The Python Risk Identification Tool for generative AI (PyRIT) is an open access automation framework to empower security professionals and machine learning engineers to proactively find risks in their generative AI systems. |
+| [paul-gauthier/aider](https://github.com/paul-gauthier/aider) | aider is AI pair programming in your terminal |
+| [pydata/xarray](https://github.com/pydata/xarray) | N-D labeled arrays and datasets in Python |
+| [huggingface/trl](https://github.com/huggingface/trl) | Train transformer language models with reinforcement learning. |
+| [zilliztech/GPTCache](https://github.com/zilliztech/GPTCache) | Semantic cache for LLMs. Fully integrated with LangChain and llama_index. |
+| [danielmiessler/fabric](https://github.com/danielmiessler/fabric) | fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere. |
+| [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective. |
+| [Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python) | This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. |
+| [stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT) | ColBERT: state-of-the-art neural search (SIGIR'20, TACL'21, NeurIPS'21, NAACL'22, CIKM'22, ACL'23, EMNLP'23) |
+| [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb) | The platform for building AI from enterprise data |
+| [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic) | 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。 |
+| [g1879/DrissionPage](https://github.com/g1879/DrissionPage) | 基于python的网页自动化工具。既能控制浏览器，也能收发数据包。可兼顾浏览器自动化的便利性和requests的高效率。功能强大，内置无数人性化设计和便捷功能。语法简洁而优雅，代码量少。 |
+| [yihong0618/Kindle_download_helper](https://github.com/yihong0618/Kindle_download_helper) | Download all your kindle books script. |
+| [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT3.5/GPT-4o/GPT4.0/ Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Claude/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。 |
+| [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。 |
+| [shibing624/text2vec](https://github.com/shibing624/text2vec) | text2vec, text to vector. 文本向量表征工具，把文本转化为向量矩阵，实现了Word2Vec、RankBM25、Sentence-BERT、CoSENT等文本表征、文本相似度计算模型，开箱即用。 |
+| [cuifengcn/TAICHI-flet](https://github.com/cuifengcn/TAICHI-flet) | 基于flet的一款windows桌面应用，实现了浏览图片、音乐、小说、漫画、各种资源的功能。 |
+| [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. |
+| [OFA-Sys/Chinese-CLIP](https://github.com/OFA-Sys/Chinese-CLIP) | Chinese version of CLIP which achieves Chinese cross-modal retrieval and representation generation. |
+| [PantsuDango/Dango-Translator](https://github.com/PantsuDango/Dango-Translator) | 团子翻译器 —— 个人兴趣制作的一款基于OCR技术的翻译器 |
+| [we0091234/Chinese_license_plate_detection_recognition](https://github.com/we0091234/Chinese_license_plate_detection_recognition) | yolov5 车牌检测 车牌识别 中文车牌识别 检测 支持12种中文车牌 支持双层车牌 |
+| [shibing624/pycorrector](https://github.com/shibing624/pycorrector) | pycorrector is a toolkit for text error correction. 文本纠错，实现了Kenlm，T5，MacBERT，ChatGLM3，LLaMA等模型应用在纠错场景，开箱即用。 |
+| [oceanbase/obdiag](https://github.com/oceanbase/obdiag) | obdiag (OceanBase Diagnostic Tool) is designed to help OceanBase users quickly gather necessary information and analyze the root cause of the problem. |
+| [opendilab/PPOxFamily](https://github.com/opendilab/PPOxFamily) | PPO x Family DRL Tutorial Course（决策智能入门级公开课：8节课帮你盘清算法理论，理顺代码逻辑，玩转决策AI应用实践 ） |
+| [YaoFANGUK/video-subtitle-generator](https://github.com/YaoFANGUK/video-subtitle-generator) | 视频音频生成字幕，生成srt文件。无需申请第三方API，本地实现音频转文本。基于Transformer的视频字幕生成框架。A GUI tool for generating subtitle from videos and generating srt files. |
+| [wzpan/wukong-robot](https://github.com/wzpan/wukong-robot) | 🤖 wukong-robot 是一个简单、灵活、优雅的中文语音对话机器人/智能音箱项目，支持ChatGPT多轮对话能力，还可能是首个支持脑机交互的开源智能音箱项目。 |
+| [alibaba/tidevice](https://github.com/alibaba/tidevice) | tidevice can be used to communicate with iPhone device |
+| [Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) | 🚀「Douyin_TikTok_Download_API」是一个开箱即用的高性能异步抖音、快手、TikTok、Bilibili数据爬取工具，支持API调用，在线批量解析及下载。 |
+| [XiaoMiku01/fansMedalHelper](https://github.com/XiaoMiku01/fansMedalHelper) | 新版B站粉丝牌助手 全自动升级粉丝牌 |
+| [XX-net/XX-Net](https://github.com/XX-net/XX-Net) | A proxy tool to bypass GFW. |
+| [opennaslab/kubespider](https://github.com/opennaslab/kubespider) | A global resource download orchestration system, build your home download center. |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -396,6 +601,46 @@
 | [shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan) | 香色闺阁+阅读3.0书源+源阅读+爱阅书香+花火阅读+读不舍手+IPTV源+IPA巨魔应用=自动更新 |
 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。 |
 ## JAVA
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [apache/skywalking](https://github.com/apache/skywalking) | APM, Application Performance Monitoring System |
+| [doocs/advanced-java](https://github.com/doocs/advanced-java) | 😮 Core Interview Questions & Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识 |
+| [alibaba/druid](https://github.com/alibaba/druid) | 阿里云计算平台DataWorks(https://help.aliyun.com/document_detail/137663.html) 团队出品，为监控而生的数据库连接池 |
+| [testcontainers/testcontainers-java](https://github.com/testcontainers/testcontainers-java) | Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. |
+| [jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck) | OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies. |
+| [alibaba/Sentinel](https://github.com/alibaba/Sentinel) | A powerful flow control component enabling reliability, resilience and monitoring for microservices. (面向云原生微服务的高可用流控防护组件) |
+| [apache/flink-cdc](https://github.com/apache/flink-cdc) | Flink CDC is a streaming data integration tool |
+| [yudaocode/SpringBoot-Labs](https://github.com/yudaocode/SpringBoot-Labs) | 一个涵盖六个专栏：Spring Boot 2.X、Spring Cloud、Spring Cloud Alibaba、Dubbo、分布式消息队列、分布式事务的仓库。希望胖友小手一抖，右上角来个 Star，感恩 1024 |
+| [redisson/redisson](https://github.com/redisson/redisson) | Redisson - Easy Redis Java client and Real-Time Data Platform. Valkey compatible. Sync/Async/RxJava/Reactive API. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, RPC, local cache ... |
+| [alibaba/easyexcel](https://github.com/alibaba/easyexcel) | 快速、简洁、解决大文件内存溢出的java处理Excel工具 |
+| [kunal-kushwaha/DSA-Bootcamp-Java](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java) | This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs. |
+| [google/guava](https://github.com/google/guava) | Google core libraries for Java |
+| [apache/doris](https://github.com/apache/doris) | Apache Doris is an easy-to-use, high performance and unified analytics database. |
+| [checkstyle/checkstyle](https://github.com/checkstyle/checkstyle) | Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program. |
+| [apache/flink](https://github.com/apache/flink) | Apache Flink |
+| [jhy/jsoup](https://github.com/jhy/jsoup) | jsoup: the Java HTML parser, built for HTML editing, cleaning, scraping, and XSS safety. |
+| [langchain4j/langchain4j](https://github.com/langchain4j/langchain4j) | Java version of LangChain |
+| [novicezk/midjourney-proxy](https://github.com/novicezk/midjourney-proxy) | 代理 MidJourney 的discord频道，实现api形式调用AI绘图 |
+| [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch) | 🔎 Open source distributed and RESTful search engine. |
+| [kermitt2/grobid](https://github.com/kermitt2/grobid) | A machine learning software for extracting information from scholarly documents |
+| [doocs/source-code-hunter](https://github.com/doocs/source-code-hunter) | 😱 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等 |
+| [GrimAnticheat/Grim](https://github.com/GrimAnticheat/Grim) | Fully async, multithreaded, predictive, open source, 3.01 reach, 1.005 timer, 0.01% speed, 99.99% antikb, "bypassable" 1.8-1.20 anticheat. |
+| [mockito/mockito](https://github.com/mockito/mockito) | Most popular Mocking framework for unit tests written in Java |
+| [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | ehviewer，用爱发电，快乐前行 |
+| [alibaba/fastjson2](https://github.com/alibaba/fastjson2) | 🚄 FASTJSON2 is a Java JSON library with excellent performance. |
+| [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) | 一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄 |
+| [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro) | 🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP 等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！ |
+| [krahets/hello-algo](https://github.com/krahets/hello-algo) | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing |
+| [jeequan/jeepay](https://github.com/jeequan/jeepay) | Jeepay是一套适合互联网企业使用的开源支付系统，支持多渠道服务商和普通商户模式。已对接微信支付，支付宝，云闪付官方接口，支持聚合码支付。 |
+| [Tencent/APIJSON](https://github.com/Tencent/APIJSON) | 🏆 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构。 🏆 A JSON Transmission Protocol and an ORM Library 🚀 provides APIs and Docs without writing any code. |
+| [yangzongzhuan/RuoYi-Vue](https://github.com/yangzongzhuan/RuoYi-Vue) | 🎉 (RuoYi)官方仓库 基于SpringBoot，Spring Security，JWT，Vue & Element 的前后端分离权限管理系统，同时提供了 Vue3 的版本 |
+| [halo-dev/halo](https://github.com/halo-dev/halo) | 强大易用的开源建站工具。 |
+| [jiayaoO3O/18-comic-finder](https://github.com/jiayaoO3O/18-comic-finder) | 禁漫天堂Github Actions下载器🧘 |
+| [wechatpay-apiv3/wechatpay-java](https://github.com/wechatpay-apiv3/wechatpay-java) | 微信支付 APIv3 的官方 Java Library |
+| [dromara/dynamic-tp](https://github.com/dromara/dynamic-tp) | 🔥🔥🔥轻量级动态线程池，内置监控告警功能，集成三方中间件线程池管理，基于主流配置中心（已支持Nacos、Apollo，Zookeeper、Consul、Etcd，可通过SPI自定义实现）。Lightweight dynamic threadpool, with monitoring and alarming functions, base on popular config centers (already support Nacos、Apollo、Zookeeper、Consul, can be customized through SPI). |
+| [jeecgboot/JimuReport](https://github.com/jeecgboot/JimuReport) | 🔥「数据可视化报表，帆软等商业 BI 工具的开源替代品」类似excel操作风格，在线拖拽完成报表设计！功能涵盖: 报表设计、图形报表、打印设计、大屏设计等，完全免费！秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、解决各类报表难题。 |
+| [dromara/lamp-cloud](https://github.com/dromara/lamp-cloud) | lamp-cloud 基于jdk21、jdk17、jdk11、jdk8 + SpringCloud + SpringBoot 开发的微服务中后台快速开发平台，专注于多租户(SaaS架构)解决方案，亦可作为普通项目（非SaaS架构）的基础开发框架使用，目前已实现插拔式数据库隔离、SCHEMA隔离、字段隔离 等租户隔离方案。 |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -468,6 +713,37 @@
 | [yangzongzhuan/RuoYi-Vue](https://github.com/yangzongzhuan/RuoYi-Vue) | 🎉 (RuoYi)官方仓库 基于SpringBoot，Spring Security，JWT，Vue & Element 的前后端分离权限管理系统，同时提供了 Vue3 的版本 |
 | [alibaba/fastjson2](https://github.com/alibaba/fastjson2) | 🚄 FASTJSON2 is a Java JSON library with excellent performance. |
 ## C
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | Display and control your Android device |
+| [openssh/openssh-portable](https://github.com/openssh/openssh-portable) | Portable OpenSSH |
+| [DPDK/dpdk](https://github.com/DPDK/dpdk) | Data Plane Development Kit |
+| [RediSearch/RediSearch](https://github.com/RediSearch/RediSearch) | A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggregations. |
+| [zmkfirmware/zmk](https://github.com/zmkfirmware/zmk) | ZMK Firmware Repository |
+| [memcached/memcached](https://github.com/memcached/memcached) | memcached development tree |
+| [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) | A cross-platform protocol library to communicate with iOS devices |
+| [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) | Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures. |
+| [shalxmva/modxo](https://github.com/shalxmva/modxo) | Xbox LPC Port modchip using a Raspberry Pi Pico |
+| [arthenica/ffmpeg-kit](https://github.com/arthenica/ffmpeg-kit) | FFmpeg Kit for applications. Supports Android, Flutter, iOS, Linux, macOS, React Native and tvOS. Supersedes MobileFFmpeg, flutter_ffmpeg and react-native-ffmpeg. |
+| [libfuse/libfuse](https://github.com/libfuse/libfuse) | The reference implementation of the Linux FUSE (Filesystem in Userspace) interface |
+| [taosdata/TDengine](https://github.com/taosdata/TDengine) | TDengine is an open source, high-performance, cloud native time-series database optimized for Internet of Things (IoT), Connected Cars, Industrial IoT and DevOps. |
+| [FreeRTOS/FreeRTOS-Kernel](https://github.com/FreeRTOS/FreeRTOS-Kernel) | FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos. |
+| [pgvector/pgvector](https://github.com/pgvector/pgvector) | Open-source vector similarity search for Postgres |
+| [mit-pdos/xv6-riscv](https://github.com/mit-pdos/xv6-riscv) | Xv6 for RISC-V |
+| [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases. |
+| [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | Open-source keyboard firmware for Atmel AVR and Arm USB families |
+| [FRRouting/frr](https://github.com/FRRouting/frr) | The FRRouting Protocol Suite |
+| [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) | SQLCipher is a standalone fork of SQLite that adds 256 bit AES encryption of database files and other security features. |
+| [fwupd/fwupd](https://github.com/fwupd/fwupd) | A system daemon to allow session software to update firmware |
+| [openssl/openssl](https://github.com/openssl/openssl) | TLS/SSL and crypto library |
+| [google/security-research](https://github.com/google/security-research) | This project hosts security advisories and their accompanying proof-of-concepts related to research conducted at Google which impact non-Google owned code. |
+| [wechat-miniprogram/minigame-unity-webgl-transform](https://github.com/wechat-miniprogram/minigame-unity-webgl-transform) | Wechat Mini Game Unity engine adapter documents. |
+| [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) | Lean's LEDE source |
+| [skywind3000/kcp](https://github.com/skywind3000/kcp) | ⚡ KCP - A Fast and Reliable ARQ Protocol |
+| [pymumu/smartdns](https://github.com/pymumu/smartdns) | A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。 |
+| [openctp/openctp](https://github.com/openctp/openctp) | openctp提供中泰证券XTP、华鑫证券奇点TORA、东方证券OST、东方财富证券EMT、盈透证券TWS等各通道的CTPAPI兼容接口，CTP程序可以无缝对接各股票柜台。openctp也提供了一套基于TTS交易系统的模拟环境，同样提供了CTPAPI兼容接口，不仅支持国内期货与期权全品种，也支持A股股票、基金、债券以及股票期权模拟交易，可以替代Simnow，为CTP量化交易开发者提供7x24可用的模拟环境。 |
+| [eunomia-bpf/bpf-developer-tutorial](https://github.com/eunomia-bpf/bpf-developer-tutorial) | eBPF Developer Tutorial: Learning eBPF Step by Step with Examples |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -525,6 +801,41 @@
 | [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) | Lean's LEDE source |
 | [pymumu/smartdns](https://github.com/pymumu/smartdns) | A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。 |
 ## C++
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. |
+| [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) | Self-hosted game stream host for Moonlight. |
+| [facebook/react-native](https://github.com/facebook/react-native) | A framework for building native applications using React |
+| [minetest/minetest](https://github.com/minetest/minetest) | Minetest is an open source voxel game-creation platform with easy modding and game creation |
+| [apache/arrow](https://github.com/apache/arrow) | Apache Arrow is a multi-language toolbox for accelerated data interchange and in-memory processing |
+| [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. |
+| [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework |
+| [google/leveldb](https://github.com/google/leveldb) | LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values. |
+| [o3de/o3de](https://github.com/o3de/o3de) | Open 3D Engine (O3DE) is an Apache 2.0-licensed multi-platform 3D engine that enables developers and content creators to build AAA games, cinema-quality 3D worlds, and high-fidelity simulations without any fees or commercial obligations. |
+| [SerenityOS/serenity](https://github.com/SerenityOS/serenity) | The Serenity Operating System 🐞 |
+| [ocornut/imgui](https://github.com/ocornut/imgui) | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies |
+| [hku-mars/FAST_LIO](https://github.com/hku-mars/FAST_LIO) | A computationally efficient and robust LiDAR-inertial odometry (LIO) package |
+| [openthread/openthread](https://github.com/openthread/openthread) | OpenThread released by Google is an open-source implementation of the Thread networking protocol |
+| [catchorg/Catch2](https://github.com/catchorg/Catch2) | A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch) |
+| [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) | 《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients. |
+| [pytorch/executorch](https://github.com/pytorch/executorch) | On-device AI across mobile, embedded and edge for PyTorch |
+| [ydb-platform/ydb](https://github.com/ydb-platform/ydb) | YDB is an open source Distributed SQL Database that combines high availability and scalability with strong consistency and ACID transactions |
+| [include-what-you-use/include-what-you-use](https://github.com/include-what-you-use/include-what-you-use) | A tool for use with clang to analyze #includes in C and C++ source files |
+| [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | Speech-to-text, text-to-speech, and speaker recognition using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, Raspberry Pi, RISC-V, x86_64 servers, websocket server/client, C/C++, Python, Kotlin, C#, Go, NodeJS, Java, Swift, Dart, JavaScript, Flutter |
+| [triple-Mu/YOLOv8-TensorRT](https://github.com/triple-Mu/YOLOv8-TensorRT) | YOLOv8 using TensorRT accelerate ! |
+| [vnotex/vnote](https://github.com/vnotex/vnote) | A pleasant note-taking platform. |
+| [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot) | ArduPlane, ArduCopter, ArduRover, ArduSub source |
+| [microsoft/onnxruntime-genai](https://github.com/microsoft/onnxruntime-genai) | Generative AI extensions for onnxruntime |
+| [rhasspy/piper](https://github.com/rhasspy/piper) | A fast, local neural text to speech system |
+| [oceanbase/miniob](https://github.com/oceanbase/miniob) | MiniOB is a compact database that assists developers in understanding the fundamental workings of a database. |
+| [yuesong-feng/30dayMakeCppServer](https://github.com/yuesong-feng/30dayMakeCppServer) | 30天自制C++服务器，包含教程和源代码 |
+| [cxasm/notepad--](https://github.com/cxasm/notepad--) | 一个支持windows/linux/mac的文本编辑器，目标是做中国人自己的编辑器，来自中国。 |
+| [PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite) | PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (飞桨高性能深度学习端侧推理引擎） |
+| [Tencent/puerts](https://github.com/Tencent/puerts) | PUER(普洱) Typescript. Let's write your game in UE or Unity with TypeScript. |
+| [zjhellofss/KuiperInfer](https://github.com/zjhellofss/KuiperInfer) | 带你从零实现一个高性能的深度学习推理库，支持大模型 llama2 、Unet、Yolov5、Resnet等模型的推理。Implement a high-performance deep learning inference library step by step |
+| [weolar/miniblink49](https://github.com/weolar/miniblink49) | a lighter, faster browser kernel of blink to integrate HTML UI in your app. 一个小巧、轻量的浏览器内核，用来取代wke和libcef |
+| [MatsuriDayo/nekoray](https://github.com/MatsuriDayo/nekoray) | Qt based cross-platform GUI proxy configuration manager (backend: sing-box) |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
@@ -594,6 +905,31 @@
 | [geektcp/UeCore](https://github.com/geektcp/UeCore) | UeCore wow game server c++ 开源魔兽世界 https://uewow.com |
 | [oceanbase/miniob](https://github.com/oceanbase/miniob) | MiniOB is a compact database that assists developers in understanding the fundamental workings of a database. |
 ## C#
+### 2024-07-03
+| Title | Description |
+| :---- | :---- |
+| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | Display and control your Android device |
+| [openssh/openssh-portable](https://github.com/openssh/openssh-portable) | Portable OpenSSH |
+| [DPDK/dpdk](https://github.com/DPDK/dpdk) | Data Plane Development Kit |
+| [RediSearch/RediSearch](https://github.com/RediSearch/RediSearch) | A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggregations. |
+| [zmkfirmware/zmk](https://github.com/zmkfirmware/zmk) | ZMK Firmware Repository |
+| [memcached/memcached](https://github.com/memcached/memcached) | memcached development tree |
+| [libimobiledevice/libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) | A cross-platform protocol library to communicate with iOS devices |
+| [zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr) | Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures. |
+| [shalxmva/modxo](https://github.com/shalxmva/modxo) | Xbox LPC Port modchip using a Raspberry Pi Pico |
+| [arthenica/ffmpeg-kit](https://github.com/arthenica/ffmpeg-kit) | FFmpeg Kit for applications. Supports Android, Flutter, iOS, Linux, macOS, React Native and tvOS. Supersedes MobileFFmpeg, flutter_ffmpeg and react-native-ffmpeg. |
+| [libfuse/libfuse](https://github.com/libfuse/libfuse) | The reference implementation of the Linux FUSE (Filesystem in Userspace) interface |
+| [taosdata/TDengine](https://github.com/taosdata/TDengine) | TDengine is an open source, high-performance, cloud native time-series database optimized for Internet of Things (IoT), Connected Cars, Industrial IoT and DevOps. |
+| [FreeRTOS/FreeRTOS-Kernel](https://github.com/FreeRTOS/FreeRTOS-Kernel) | FreeRTOS kernel files only, submoduled into https://github.com/FreeRTOS/FreeRTOS and various other repos. |
+| [pgvector/pgvector](https://github.com/pgvector/pgvector) | Open-source vector similarity search for Postgres |
+| [mit-pdos/xv6-riscv](https://github.com/mit-pdos/xv6-riscv) | Xv6 for RISC-V |
+| [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls) | An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases. |
+| [qmk/qmk_firmware](https://github.com/qmk/qmk_firmware) | Open-source keyboard firmware for Atmel AVR and Arm USB families |
+| [FRRouting/frr](https://github.com/FRRouting/frr) | The FRRouting Protocol Suite |
+| [sqlcipher/sqlcipher](https://github.com/sqlcipher/sqlcipher) | SQLCipher is a standalone fork of SQLite that adds 256 bit AES encryption of database files and other security features. |
+| [fwupd/fwupd](https://github.com/fwupd/fwupd) | A system daemon to allow session software to update firmware |
+| [openssl/openssl](https://github.com/openssl/openssl) | TLS/SSL and crypto library |
+| [google/security-research](https://github.com/google/security-research) | This project hosts security advisories and their accompanying proof-of-concepts related to research conducted at Google which impact non-Google owned code. |
 ### 2024-07-02
 | Title | Description |
 | :---- | :---- |
